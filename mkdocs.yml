@@ -4,3 +4,10 @@ nav:
   - Install: install.md
 theme:
   name: material
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
