@@ -22,3 +22,6 @@ to start GROBID
 3. Provide your pdfs and run
 - Move your pdf to the [resources](resources) directory OR choose your own directory by changing the *RESOURCE_DIRECTORY* constant in [xml_parser.py](xml_parser.py)
 - Start the application by running `python xml_parser.py`
+
+## Documentation
+See full documentation at https://os-ai-cd.readthedocs.io/en/latest/
