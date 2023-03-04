@@ -2,3 +2,5 @@ site_name: Example pdf parser application using GROBID
 nav:
   - Home: description.md
   - Install: install.md
+theme:
+  name: material
