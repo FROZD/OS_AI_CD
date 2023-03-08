@@ -19,10 +19,13 @@ to start GROBID
 - By running 
 `pip install requirements.txt`
 
-
 3. Provide your pdfs and run
 - Move your pdf to the [resources](resources) directory OR choose your own directory by changing the *RESOURCE_DIRECTORY* constant in [xml_parser.py](xml_parser.py)
 - Start the application by running `python xml_parser.py`
+
+## XML Mode
+If you want parse existing xml files. Set the MODE constant in [xml_parser.py](xml_parser.py) to *"XML"* provide your xml files in a directory and assign your directory to the *XML_RESSOURCE_DIRECTORY* constant in [xml_parser.py](xml_parser.py)
+- Now just start the feature extraction for xml files by running `python xml_parser.py`
 
 ## Documentation
 See full documentation at https://os-ai-cd.readthedocs.io/en/latest/
