@@ -17,7 +17,7 @@ to start GROBID
 
 2. Set up your environment
 - By running 
-`pip install requirements.txt`
+`conda create --name <env> --file requirements.txt`
 
 3. Provide your pdfs and run
 - Move your pdf to the [resources](resources) directory OR choose your own directory by changing the *RESOURCE_DIRECTORY* constant in [xml_parser.py](xml_parser.py)
